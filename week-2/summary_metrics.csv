@@ -1,0 +1,2 @@
+orders,items,customers,delivered_valid_orders,delivered_share,delivery_mean,delivery_median,delivery_p90,early_or_on_time_share,late_share,freight_price_corr,top_state,top_state_median,status_top,status_top_count,monthly_peak,monthly_peak_count
+99441,112650,99441,96204,97.02,12.47,10.22,23.06,91.95,8.05,0.411,SP,7.21,delivered,96478,2017-11,7544
