@@ -1,0 +1,4 @@
+Dataset,Original Rows,Cleaned Rows,Original Duplicates,Cleaned Duplicates,Original Missing,Cleaned Missing,Row Count Preserved
+Orders,99441,99441,0,0,4908,4908,True
+Items,112650,112650,0,0,0,0,True
+Customers,99441,99441,0,0,0,0,True

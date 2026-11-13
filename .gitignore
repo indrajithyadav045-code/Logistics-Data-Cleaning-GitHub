@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Raw and large generated data
+data/raw/
+data/processed/cleaned_*.csv
+data/processed/logistics_analysis_ready.csv
+data/processed/order_item_summary.csv
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/

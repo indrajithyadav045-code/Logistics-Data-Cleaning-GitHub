@@ -1,0 +1,11 @@
+Quality Check,Count
+Duplicate order IDs,0
+Duplicate customer IDs,0
+Duplicate item keys,0
+Orphan order items,0
+Orphan customers,0
+Invalid approval sequence,0
+Invalid carrier sequence,166
+Invalid delivery sequence,23
+Non-positive prices,0
+Negative freight values,0
