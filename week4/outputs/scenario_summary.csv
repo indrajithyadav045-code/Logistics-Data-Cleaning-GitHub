@@ -1,0 +1,4 @@
+scenario,status,objective_cost,variable_transport_cost,fixed_facility_cost,total_orders,weighted_avg_transit_days,service_limit_days,open_distribution_centres,opened_count,capacity_utilisation
+Base case,Optimization terminated successfully. (HiGHS Status 7: Optimal),1162592.0,747592.0,415000.0,80381,1.2688446274617136,2.35,"Sao Paulo, Rio de Janeiro, Curitiba",3,Sao Paulo: 100.0%; Rio de Janeiro: 79.0%; Curitiba: 31.0%
+Southern demand surge,Optimization terminated successfully. (HiGHS Status 7: Optimal),1190251.25,775251.25,415000.0,82551,1.2672831505181614,2.35,"Sao Paulo, Rio de Janeiro, Curitiba",3,Sao Paulo: 100.0%; Rio de Janeiro: 79.0%; Curitiba: 38.8%
+Sao Paulo capacity disruption,Optimization terminated successfully. (HiGHS Status 7: Optimal),1271929.0,856929.0,415000.0,80381,1.5042547368159143,2.35,"Sao Paulo, Rio de Janeiro, Curitiba",3,Sao Paulo: 100.0%; Rio de Janeiro: 100.0%; Curitiba: 68.5%

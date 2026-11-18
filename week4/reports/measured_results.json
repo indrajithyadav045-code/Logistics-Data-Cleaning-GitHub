@@ -1,0 +1,78 @@
+{
+  "demand_source": "Actual unique Olist order_id counts joined to customer_state",
+  "source_files": [
+    "olist_orders_dataset.csv",
+    "olist_customers_dataset.csv"
+  ],
+  "states": [
+    "SP",
+    "RJ",
+    "MG",
+    "RS",
+    "PR",
+    "SC"
+  ],
+  "facility_assumptions": {
+    "candidate_dcs": [
+      "Sao Paulo",
+      "Rio de Janeiro",
+      "Curitiba",
+      "Belo Horizonte"
+    ],
+    "fixed_cost": [
+      180000.0,
+      125000.0,
+      110000.0,
+      105000.0
+    ],
+    "capacity": [
+      48000.0,
+      30000.0,
+      28000.0,
+      26000.0
+    ],
+    "time_limit_days": 2.35
+  },
+  "scenario_results": [
+    {
+      "scenario": "Base case",
+      "status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "objective_cost": 1162592.0,
+      "variable_transport_cost": 747592.0,
+      "fixed_facility_cost": 415000.0,
+      "total_orders": 80381,
+      "weighted_avg_transit_days": 1.2688,
+      "service_limit_days": 2.35,
+      "open_distribution_centres": "Sao Paulo, Rio de Janeiro, Curitiba",
+      "opened_count": 3,
+      "capacity_utilisation": "Sao Paulo: 100.0%; Rio de Janeiro: 79.0%; Curitiba: 31.0%"
+    },
+    {
+      "scenario": "Southern demand surge",
+      "status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "objective_cost": 1190251.25,
+      "variable_transport_cost": 775251.25,
+      "fixed_facility_cost": 415000.0,
+      "total_orders": 82551,
+      "weighted_avg_transit_days": 1.2673,
+      "service_limit_days": 2.35,
+      "open_distribution_centres": "Sao Paulo, Rio de Janeiro, Curitiba",
+      "opened_count": 3,
+      "capacity_utilisation": "Sao Paulo: 100.0%; Rio de Janeiro: 79.0%; Curitiba: 38.8%"
+    },
+    {
+      "scenario": "Sao Paulo capacity disruption",
+      "status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "objective_cost": 1271929.0,
+      "variable_transport_cost": 856929.0,
+      "fixed_facility_cost": 415000.0,
+      "total_orders": 80381,
+      "weighted_avg_transit_days": 1.5043,
+      "service_limit_days": 2.35,
+      "open_distribution_centres": "Sao Paulo, Rio de Janeiro, Curitiba",
+      "opened_count": 3,
+      "capacity_utilisation": "Sao Paulo: 100.0%; Rio de Janeiro: 100.0%; Curitiba: 68.5%"
+    }
+  ],
+  "important_caveat": "Costs, transit times, capacities and facility fixed costs are hypothetical educational assumptions; only demand counts are derived from Olist."
+}

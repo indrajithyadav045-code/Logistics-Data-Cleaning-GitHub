@@ -1,0 +1,23 @@
+scenario,dc,dc_state,demand_state,allocated_orders,unit_cost_assumption,transit_days_assumption
+Base case,Sao Paulo,SP,SP,41746.0,7.0,1.0
+Base case,Sao Paulo,SP,MG,6254.0,13.0,2.0
+Base case,Rio de Janeiro,RJ,RJ,12852.0,7.0,1.0
+Base case,Rio de Janeiro,RJ,MG,5381.0,17.0,2.5
+Base case,Rio de Janeiro,RJ,RS,5466.000000000001,15.0,2.0
+Base case,Curitiba,PR,PR,5045.0,14.0,1.0
+Base case,Curitiba,PR,SC,3637.0,11.0,1.5
+Southern demand surge,Sao Paulo,SP,SP,41746.0,7.0,1.0
+Southern demand surge,Sao Paulo,SP,MG,6254.0,13.0,2.0
+Southern demand surge,Rio de Janeiro,RJ,RJ,12852.0,7.0,1.0
+Southern demand surge,Rio de Janeiro,RJ,MG,5381.0,17.0,2.5
+Southern demand surge,Rio de Janeiro,RJ,RS,5466.0,15.0,2.0
+Southern demand surge,Curitiba,PR,PR,6306.25,14.0,1.0
+Southern demand surge,Curitiba,PR,SC,4546.25,11.0,1.5
+Sao Paulo capacity disruption,Sao Paulo,SP,SP,31200.0,7.0,1.0
+Sao Paulo capacity disruption,Rio de Janeiro,RJ,SP,47.00000000000396,14.0,2.0
+Sao Paulo capacity disruption,Rio de Janeiro,RJ,RJ,12852.0,7.0,1.0
+Sao Paulo capacity disruption,Rio de Janeiro,RJ,MG,11635.0,17.0,2.5
+Sao Paulo capacity disruption,Rio de Janeiro,RJ,RS,5466.0,15.0,2.0
+Sao Paulo capacity disruption,Curitiba,PR,SP,10498.999999999996,15.0,2.5
+Sao Paulo capacity disruption,Curitiba,PR,PR,5045.0,14.0,1.0
+Sao Paulo capacity disruption,Curitiba,PR,SC,3637.0,11.0,1.5
