@@ -1,0 +1,61 @@
+{
+  "source": "data\\raw\\olist_orders_dataset.csv",
+  "demand_definition": "unique order_id count per calendar day of order_purchase_timestamp",
+  "date_range": {
+    "start": "2016-09-04",
+    "end": "2018-10-17"
+  },
+  "daily_rows": 774,
+  "feature_rows_after_history_requirement": 746,
+  "train_rows": 596,
+  "test_rows": 150,
+  "train_end": "2018-05-20",
+  "test_start": "2018-05-21",
+  "test_end": "2018-10-17",
+  "forecast_horizon_days": 7,
+  "daily_demand_summary": {
+    "total_orders": 99441,
+    "mean": 128.47674418604652,
+    "median": 124.0,
+    "maximum": 1176,
+    "maximum_date": "2017-11-24",
+    "zero_demand_days": 140
+  },
+  "models": [
+    {
+      "model": "Random forest",
+      "MAE": 42.9602,
+      "RMSE": 51.6273,
+      "MAPE_nonzero_pct": 588.5945,
+      "WAPE_pct": 31.419,
+      "MAPE_eligible_days": 118,
+      "Zero_actual_days": 32
+    },
+    {
+      "model": "Seasonal naive (lag 7)",
+      "MAE": 44.54,
+      "RMSE": 66.8717,
+      "MAPE_nonzero_pct": 182.0299,
+      "WAPE_pct": 32.5744,
+      "MAPE_eligible_days": 118,
+      "Zero_actual_days": 32
+    },
+    {
+      "model": "Linear regression",
+      "MAE": 65.6992,
+      "RMSE": 77.8414,
+      "MAPE_nonzero_pct": 1506.9483,
+      "WAPE_pct": 48.0492,
+      "MAPE_eligible_days": 118,
+      "Zero_actual_days": 32
+    }
+  ],
+  "forecast_model": "Random forest selected for recursive forecast; its test MAE is compared with the baseline and linear regression in model_metrics.csv.",
+  "leakage_controls": [
+    "chronological split",
+    "lags use prior demand",
+    "rolling features use demand.shift(1)",
+    "models fit only on training rows"
+  ],
+  "caveat": "Olist is historical, finite, and may be sparse at its boundaries. This is an educational demonstration, not a live operational forecast."
+}
