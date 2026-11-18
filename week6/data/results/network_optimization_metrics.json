@@ -1,0 +1,67 @@
+{
+  "as_is_centralized": {
+    "total_cost_brl": 862188.215010571,
+    "mean_delivery_days": 2.795520532111698,
+    "mean_distance_km": 518.2082128446791,
+    "late_delivery_rate_pct": 0.0,
+    "co2_emissions_tons": 6.449653950627307
+  },
+  "optimized_multi_hub": {
+    "total_cost_brl": 541872.6425093013,
+    "mean_delivery_days": 1.8125227071999468,
+    "mean_distance_km": 125.00908287997866,
+    "late_delivery_rate_pct": 0.0,
+    "co2_emissions_tons": 1.5558713761698142
+  },
+  "improvements": {
+    "annual_cost_savings_brl": 320315.57250126963,
+    "cost_reduction_pct": 37.1514672695152,
+    "delivery_time_reduction_days": 0.9829978249117513,
+    "delivery_time_reduction_pct": 35.16331980467366,
+    "distance_reduction_km": 393.19912996470043,
+    "co2_reduction_tons": 4.893782574457493,
+    "co2_reduction_pct": 75.87666891774113
+  },
+  "hub_throughput": [
+    {
+      "hub": "SP",
+      "orders_handled": 40421.0,
+      "throughput_pct": 42.001080654211435
+    },
+    {
+      "hub": "MG",
+      "orders_handled": 13310.0,
+      "throughput_pct": 13.83029572518132
+    },
+    {
+      "hub": "RJ",
+      "orders_handled": 12325.0,
+      "throughput_pct": 12.806791496082628
+    },
+    {
+      "hub": "PR",
+      "orders_handled": 9145.0,
+      "throughput_pct": 9.502483426505123
+    },
+    {
+      "hub": "DF",
+      "orders_handled": 6632.0,
+      "throughput_pct": 6.89124877906856
+    },
+    {
+      "hub": "RS",
+      "orders_handled": 5325.0,
+      "throughput_pct": 5.5331573806604455
+    },
+    {
+      "hub": "PE",
+      "orders_handled": 4586.0,
+      "throughput_pct": 4.765269436189447
+    },
+    {
+      "hub": "BA",
+      "orders_handled": 4494.0,
+      "throughput_pct": 4.669673102101042
+    }
+  ]
+}

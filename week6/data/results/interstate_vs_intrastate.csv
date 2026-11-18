@@ -1,0 +1,3 @@
+is_interstate,order_count,mean_delivery_days,median_delivery_days,delay_rate_pct,mean_freight,mean_distance_km,route_type
+0,34635,7.931502409719883,6.559039351851852,6.054569077522737,15.447453443048941,45.0,Intrastate (Same State)
+1,61603,15.070332709303178,12.79486111111111,9.223576773858417,26.89906368196354,879.3559342622107,Interstate (Cross State)

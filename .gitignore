@@ -9,6 +9,7 @@ data/raw/
 data/processed/cleaned_*.csv
 data/processed/logistics_analysis_ready.csv
 data/processed/order_item_summary.csv
+week6/data/processed/
 
 # OS and editor files
 .DS_Store

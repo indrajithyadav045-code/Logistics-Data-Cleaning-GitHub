@@ -1,0 +1,128 @@
+{
+  "dataset_summary": {
+    "total_orders": 96238,
+    "total_freight_brl": 2192085.5700000003,
+    "total_goods_value_brl": 13186077.06,
+    "mean_freight_brl": 22.77775483696669,
+    "mean_price_brl": 137.0152856460026,
+    "mean_delivery_days": 12.501146032251835,
+    "median_delivery_days": 10.223449074074075,
+    "std_delivery_days": 8.994988574288083,
+    "p95_delivery_days": 29.22141608796296,
+    "mean_carrier_days": 3.2310323172566777,
+    "mean_transit_days": 9.270113714995153,
+    "mean_estimated_days": 23.734358056569633,
+    "delayed_orders": 7779,
+    "delay_rate_pct": 8.08308568340988,
+    "mean_delay_severity_days": 8.876833339879923
+  },
+  "customer_satisfaction": {
+    "mean_ontime_rating": 4.298371750377765,
+    "mean_delayed_rating": 2.614603419462656,
+    "satisfaction_drop_pct": 39.172236109339075
+  },
+  "interstate_breakdown": [
+    {
+      "is_interstate": 0,
+      "order_count": 34635,
+      "mean_delivery_days": 7.931502409719883,
+      "median_delivery_days": 6.559039351851852,
+      "delay_rate_pct": 6.054569077522737,
+      "mean_freight": 15.447453443048941,
+      "mean_distance_km": 45.0,
+      "route_type": "Intrastate (Same State)"
+    },
+    {
+      "is_interstate": 1,
+      "order_count": 61603,
+      "mean_delivery_days": 15.070332709303178,
+      "median_delivery_days": 12.79486111111111,
+      "delay_rate_pct": 9.223576773858417,
+      "mean_freight": 26.89906368196354,
+      "mean_distance_km": 879.3559342622107,
+      "route_type": "Interstate (Cross State)"
+    }
+  ],
+  "top_states_performance": [
+    {
+      "customer_state": "SP",
+      "orders": 40421,
+      "mean_days": 8.741738215123785,
+      "delay_pct": 5.883080576927834,
+      "mean_freight": 17.32743722322555,
+      "avg_distance": 188.49217272267626
+    },
+    {
+      "customer_state": "RJ",
+      "orders": 12325,
+      "mean_days": 15.264782431823305,
+      "delay_pct": 13.460446247464503,
+      "mean_freight": 23.948133062880324,
+      "avg_distance": 457.8932686381193
+    },
+    {
+      "customer_state": "MG",
+      "orders": 11325,
+      "mean_days": 11.997441071866568,
+      "delay_pct": 5.607064017660044,
+      "mean_freight": 23.46189315673289,
+      "avg_distance": 597.74627028071
+    },
+    {
+      "customer_state": "RS",
+      "orders": 5325,
+      "mean_days": 15.2589767866458,
+      "delay_pct": 7.136150234741784,
+      "mean_freight": 24.807979342723,
+      "avg_distance": 813.9829798859535
+    },
+    {
+      "customer_state": "PR",
+      "orders": 4912,
+      "mean_days": 12.0033362998967,
+      "delay_pct": 5.00814332247557,
+      "mean_freight": 23.48917141693811,
+      "avg_distance": 554.9856606211478
+    },
+    {
+      "customer_state": "SC",
+      "orders": 3534,
+      "mean_days": 14.981629360419419,
+      "delay_pct": 9.790605546123372,
+      "mean_freight": 24.818845500848898,
+      "avg_distance": 558.5445339699462
+    },
+    {
+      "customer_state": "BA",
+      "orders": 3244,
+      "mean_days": 19.02872308064461,
+      "delay_pct": 13.81011097410604,
+      "mean_freight": 29.961926633785453,
+      "avg_distance": 1251.2874540687744
+    },
+    {
+      "customer_state": "DF",
+      "orders": 2077,
+      "mean_days": 12.978408244396297,
+      "delay_pct": 7.077515647568608,
+      "mean_freight": 23.84224843524314,
+      "avg_distance": 868.2704424694793
+    },
+    {
+      "customer_state": "ES",
+      "orders": 1985,
+      "mean_days": 15.517876486845788,
+      "delay_pct": 12.090680100755668,
+      "mean_freight": 24.551853904282115,
+      "avg_distance": 834.3511608663455
+    },
+    {
+      "customer_state": "GO",
+      "orders": 1948,
+      "mean_days": 15.421190875969655,
+      "delay_pct": 8.059548254620124,
+      "mean_freight": 26.249517453798767,
+      "avg_distance": 913.6601129953333
+    }
+  ]
+}

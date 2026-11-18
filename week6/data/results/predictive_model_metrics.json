@@ -1,0 +1,87 @@
+{
+  "classification_metrics": [
+    {
+      "model": "Logistic Regression (Baseline)",
+      "roc_auc": 0.7007534522451291,
+      "pr_auc": 0.21083056410470807,
+      "f1_score": 0.2384831085592202,
+      "precision": 0.15051407382437215,
+      "recall": 0.5739074550128535,
+      "accuracy": 0.703709476309227
+    },
+    {
+      "model": "Random Forest Classifier",
+      "roc_auc": 0.7893352920611876,
+      "pr_auc": 0.32198298491883975,
+      "f1_score": 0.3197311569851176,
+      "precision": 0.21287023226081397,
+      "recall": 0.6420308483290489,
+      "accuracy": 0.7791458852867831
+    },
+    {
+      "model": "HistGradientBoosting Classifier",
+      "roc_auc": 0.7979289435278432,
+      "pr_auc": 0.3219577795822184,
+      "f1_score": 0.30838873956712404,
+      "precision": 0.19771449301650643,
+      "recall": 0.7005141388174807,
+      "accuracy": 0.7459995843724023
+    }
+  ],
+  "regression_metrics": [
+    {
+      "model": "Ridge Regression (Baseline)",
+      "mae_days": 4.581251068311832,
+      "rmse_days": 7.0539029365145,
+      "r2_score": 0.3831041721852172
+    },
+    {
+      "model": "HistGradientBoosting Regressor",
+      "mae_days": 4.082805303829585,
+      "rmse_days": 6.529604767373436,
+      "r2_score": 0.47140060306012155
+    }
+  ],
+  "top_features": [
+    {
+      "feature": "carrier_dispatch_days",
+      "importance": 0.2812104571445668
+    },
+    {
+      "feature": "purchase_month",
+      "importance": 0.24005608640520196
+    },
+    {
+      "feature": "distance_km",
+      "importance": 0.08718448049828662
+    },
+    {
+      "feature": "total_freight",
+      "importance": 0.07008699307709232
+    },
+    {
+      "feature": "product_volume_cm3",
+      "importance": 0.04645076509239121
+    },
+    {
+      "feature": "freight_ratio",
+      "importance": 0.04582721364140908
+    },
+    {
+      "feature": "total_price",
+      "importance": 0.04366032219945257
+    },
+    {
+      "feature": "product_weight_g",
+      "importance": 0.042756493201208286
+    },
+    {
+      "feature": "customer_region_Northeast",
+      "importance": 0.030169209401517853
+    },
+    {
+      "feature": "purchase_hour",
+      "importance": 0.02958683503974513
+    }
+  ]
+}
